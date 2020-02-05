@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="occasion_staging" max_length="40" name="x_58872_needit_occasion_staging" type="collection">
+        <element attributes="import_attribute_name=EmpId" label="EmpId" max_length="40" name="u_empid" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=EmpName" label="EmpName" max_length="40" name="u_empname" type="string"/>
+    </element>
+</database>
